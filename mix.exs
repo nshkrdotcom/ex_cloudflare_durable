@@ -40,7 +40,7 @@ defmodule ExCloudflareDurable.MixProject do
                 license* CHANGELOG* changelog* src),
       licenses: ["Apache-2.0"],
       maintainers: ["nshkrdotcom"],
-      description: "Provides comprehensive stateful integration with Cloudflare Calls API.",
+      #description: "Provides comprehensive stateful integration with Cloudflare Durable Objects.",
       links: %{"GitHub" => "https://github.com/nshkrdotcom/ex_cloudflare_durable"}
     ]
   end
