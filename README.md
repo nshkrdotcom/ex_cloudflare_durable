@@ -19,6 +19,12 @@ Current Cloudflare Durable Object runtime implementation work is in
 compiled Durable Object runtime proof use that repository while this repository
 records the moved target state and absence of local runtime substrate.
 
+Phase 5 target-posture and sandbox-attach proof is executable in
+`/home/home/p/g/n/cf_ex/apps/cf_durable`. This repository remains a
+non-executable pointer and must not be treated as a source of Cloudflare
+binding names, object ids, deployment env, workspace secrets, target
+credentials, attach grants, or posture materialization.
+
 ## Universal authority scope
 
 For the 2026 universal authority implementation, this repository is a
