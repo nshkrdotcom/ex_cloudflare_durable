@@ -18,3 +18,18 @@ Current Cloudflare Durable Object runtime implementation work is in
 `/home/home/p/g/n/cf_ex`, including `apps/cf_durable`. Phases that need
 compiled Durable Object runtime proof use that repository while this repository
 records the moved target state and absence of local runtime substrate.
+
+## Universal authority scope
+
+For the 2026 universal authority implementation, this repository is a
+repo-local Durable Object target-state marker only. It has no runtime code,
+tests, fixtures, generators, build scripts, package config, Durable Object
+state machine, target binding implementation, storage implementation, alarm
+implementation, deployment binding implementation, or repo-local QC command.
+
+Because there is no local executable surface here, this repository cannot read
+environment variables, token files, Cloudflare bindings, workspace secrets, or
+deployment secrets as governed authority. It also cannot atomize external
+target/provider input or contain regex-bearing executable code. The active
+Cloudflare Durable Object runtime proof remains in
+`/home/home/p/g/n/cf_ex/apps/cf_durable`.
